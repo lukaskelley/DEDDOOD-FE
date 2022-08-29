@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100%;
+  @include ltr-rtl("padding-left", var(--cui-sidebar-occupy-start, 0));
+  will-change: auto;
+  @include transition(padding .15s);
+}
+.simplebar-content > li > a  >svg,.simplebar-content > li > a {
+  font-weight: 700;
+  font-size: 16px;
+  color:rgb(143, 128, 186) !important;
+}
+.sidebar-nav .nav-link.active {
+  background-color: white!important;
+  border-left: 4px solid rebeccapurple;
+}
+.nav-title {
+  color: rebeccapurple !important;
+}
+.sidebar-nav .nav-link:hover {
+  background-color: rgb(221, 220, 221);
+}
+.header-brand {
+  display: flex;
+}
+.linkContain {
+  margin:10px !important;
+}
+.sidebarBottom {
+  color:rgb(143, 128, 186) !important;
+}
+.linkContainer  {
+  text-align: center;
+  i {
+    font-size: 25px;
+    color:rgb(143, 128, 186) !important;
+    padding: 20px;
+  }
+}
+.nav-icon {
+  padding-right: 10px;
+}

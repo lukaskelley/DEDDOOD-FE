@@ -1,0 +1,554 @@
+// Here you can add other styles
+.body {
+  background-image: url(../assets/images/home-backgroundlight.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.connectWalletContainer {
+  box-shadow: rgb(25 19 38 / 70%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px !important;
+}
+
+.sideItem {
+  width: 45px;
+  height: 35px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.appfooter {
+  background-color: white;
+  border-top: 5px solid rgb(233, 231, 231);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 17px;
+}
+.appfooter > div  {
+    a {
+      color: rgb(133, 85, 180);
+      text-decoration: none;
+      font-weight: 800;
+    }
+}
+
+
+.header {
+  height: 28px;
+  border-bottom: 2px solid rgba(186, 163, 208, 0.2) !important;
+}
+.logoBar {
+  padding: 5px;
+  border-bottom: 2px solid rgba(186, 163, 208, 0.2) !important;
+
+}
+
+.infoContain-topbar {
+  background: white;
+  box-shadow: rgb(25 19 38 / 70%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px;
+  color: rgb(69, 42, 122);
+  text-align: center;
+  font-size: 27px;
+  font-weight: 800;
+  border-radius: 25px;
+  padding: 25px;
+
+}
+.card {
+  border-radius: 30px;
+  .infoContainer {
+    text-align: center;
+    border: none;
+  }
+
+  .infoContain {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: rgb(25 19 38 / 70%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px;
+    h1 {
+      color: rgb(69, 42, 122);
+      font-size: 15px;
+      text-align: left;
+      font-weight: 700;
+    }
+    p {
+      color: rgb(177, 105, 196);
+      font-size:30px;
+      text-align: left;
+      font-weight: 600;
+    }
+  }
+
+
+}
+.ftinfoContain {
+  background: white !important;
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: rgb(25 19 38 / 70%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px;
+
+    h1 {
+    color: rgb(69, 42, 122);
+    font-size: 20px;
+    font-weight: 800;
+    }
+    p {
+      color: rgb(120, 77, 170);
+      font-size: 13px;
+      font-weight: 700;
+    }
+}
+.toptitleContainer {
+  h1 {
+    font-weight: 800;
+    color: rgb(69, 42, 122);
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  p {
+    font-weight: 800;
+    color: rgb(69, 42, 122);
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 30px;
+  }
+}
+
+.ftstakingInput {
+  border: none !important;
+  outline: none !important;
+  background: aliceblue;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+/*Button Style*/
+.ftstakeBtn {
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  background: rgb(118, 69, 217) !important;
+  margin-top: 10px;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px 10px 20px;
+
+  &:hover {
+    transition: 0.5s;
+    background: rgb(139, 80, 197) !important;
+  }
+}
+
+.btn-connect {
+  background: rebeccapurple !important;
+  padding: 10px 20px 10px 20px !important;
+  font-weight: 700;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    transition: 0.3s;
+    color: white ;
+    background: rgb(133, 85, 180) !important;
+
+  }
+}
+
+.btn-website{
+  background: rebeccapurple !important;
+  padding: 10px 20px 10px 20px !important;
+  font-weight: 700;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    transition: 0.3s;
+    color: white ;
+    background: rgb(133, 85, 180) !important;
+
+  }
+}
+
+.btn-approve{
+  background: rebeccapurple !important;
+  padding: 10px 20px 10px 20px !important;
+  font-weight: 700;
+  color: white;
+  border-radius: 30px;
+
+  outline: none;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    transition: 0.3s;
+    color: white ;
+    background: rgb(133, 85, 180) !important;
+
+  }
+}
+
+.btn-mint {
+  border: none;
+  margin-top: 50px;
+  padding: 5px 20px;
+  background-color: rgb(104, 71, 170);
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  border-radius: 50%;
+
+    &:hover {
+      transition: 0.5s;
+      background-color: rgb(123, 103, 162);
+    }
+}
+
+.nfttoptitleContainer {
+  text-align: center;
+  h1 {
+    color: rgb(73, 38, 107);
+    font-size: 50px;
+    font-weight: 800;
+  }
+  p {
+    color: rgb(110, 65, 155);
+    font-size: 15px;
+    font-weight: 800;
+  }
+}
+.sidebarBottom {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  border: none;
+}
+
+/*Modal Style*/
+.ant-modal-content{
+  box-shadow: rgb(25 19 38 / 70%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px !important;
+  border-radius: 20px !important;
+
+  svg {
+    font-size: 30px !important;
+  }
+  .ant-modal-confirm-content {
+    font-size: 20px !important;
+    font-weight:700;
+  }
+  .ant-modal-confirm-btns >button {
+    background-color: rgb(118, 69, 217) !important;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 15px !important;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+}
+
+/*NFT STaking SCSS*/
+.connectWalletContain{
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: rgb(25 19 38 / 70%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px;
+  padding: 90px 0 0px 0;
+  justify-content: center;
+    h1 {
+      font-size: 30px;
+    }
+    button {
+      width: 70% !important;
+    }
+    .stakeBtn {
+      width: 70%;
+    }
+}
+
+/*Notification style*/
+.ant-notification-notice {
+  border-radius: 30px !important;
+}
+.ant-notification {
+  top: 120px !important;
+  border-radius: 30px !important;
+}
+.ant-notification-notice-message {
+  color: rgb(118, 69, 217) !important;
+  font-weight: 800;
+}
+.ant-notification-notice-description {
+  color: rgb(97, 64, 167) !important;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 395px){
+  .sidebar-brand-full {
+    margin-right: 100px;
+  }
+  .nftStakingContainer {
+    padding: 0px !important;
+  }
+  .btn-website{
+    padding: 5px 20px 5px 20px !important;
+  }
+  .nftStakingTopTitle {
+    font-size: 30px !important;
+  }
+  .top-title {
+    padding-top: 20px;
+    font-size: 15px !important;
+  }
+ .btnConnectConbtain{
+    width: 16% !important;
+  }
+
+  .ftStakingContainer {
+    padding: 0px !important;
+  }
+  .header-nav {
+    margin-right:40px ;
+  }
+  .infoContain {
+    padding: 0px 0px 0px 20px !important;
+  }
+  .loading {
+    margin-top: 5% !important;
+    margin-left: 42% !important;
+  }
+
+  .body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .sc-jqUVSM {
+    gap: 5PX !important;
+  }
+  .unstakedContainer {
+    gap: 10px !important;
+  }
+  .sc-bczRLJ {
+    gap: 0px !important;
+  }
+  .harvestBtn {
+    font-size: 12px !important;
+  }
+  .unstakeAllBtn {
+    font-size: 12px !important;
+  }
+  .totalValue {
+    text-align: center;
+    font-size: 18px !important;
+  }
+  .infoContain > h1, p {
+    text-align: center !important;
+  }
+  .headerBtnContainer {
+    margin-right: 0px !important;
+  }
+  .nftCardContainer {
+    gap:5px !important;
+    padding: 0px !important;
+  }
+  .headerBtnContainer > * {
+    width: 30% !important;
+  }
+  .nftmint-top-img {
+    width: 300px !important;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 825px){
+  .btnConnectConbtainer {
+  }
+  .sidebar-brand-full {
+    margin-right: 100px;
+  }
+  .nftStakingContainer {
+    padding: 0px !important;
+  }
+
+  .nftStakingTopTitle {
+    font-size: 30px !important;
+  }
+  .top-title {
+    padding-top: 20px;
+    font-size: 15px !important;
+  }
+ .btnConnectConbtain{
+    width: 16% !important;
+  }
+
+  .ftStakingContainer {
+    padding: 0px !important;
+  }
+  .header-nav {
+    margin-right:40px ;
+  }
+  .infoContain {
+    padding: 0px 0px 0px 20px !important;
+  }
+  .loading {
+    margin-top: 5% !important;
+    margin-left: 42% !important;
+  }
+
+  .body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .sc-jqUVSM {
+    gap: 5PX !important;
+  }
+  .unstakedContainer {
+    gap: 10px !important;
+  }
+  .sc-bczRLJ {
+    gap: 0px !important;
+  }
+  .harvestBtn {
+    font-size: 12px !important;
+  }
+  .unstakeAllBtn {
+    font-size: 12px !important;
+  }
+  .totalValue {
+    text-align: center;
+    font-size: 18px !important;
+  }
+  .infoContain > h1, p {
+    text-align: center !important;
+  }
+  .headerBtnContainer {
+    margin-right: 0px !important;
+  }
+  .nftCardContainer {
+    gap:5px !important;
+    padding: 0px !important;
+  }
+  .headerBtnContainer > * {
+    width: 30% !important;
+  }
+  .nftmint-top-img {
+    width: 300px !important;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 385px){
+  .sidebar-brand-full {
+  }
+  .nftStakingContainer {
+    padding: 0px !important;
+  }
+  .btn-website{
+    padding: 5px 20px 5px 20px !important;
+  }
+  .nftStakingTopTitle {
+    font-size: 30px !important;
+  }
+  .top-title {
+    padding-top: 20px;
+    font-size: 15px !important;
+  }
+ .btnConnectConbtain{
+    width: 16% !important;
+  }
+
+  .ftStakingContainer {
+    padding: 0px !important;
+  }
+  .header-nav {
+    margin-right:40px ;
+  }
+  .infoContain {
+    padding: 0px 0px 0px 20px !important;
+  }
+  .loading {
+    margin-top: 5% !important;
+    margin-left: 42% !important;
+  }
+
+  .body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .sc-jqUVSM {
+    gap: 5PX !important;
+  }
+  .unstakedContainer {
+    gap: 10px !important;
+  }
+  .sc-bczRLJ {
+    gap: 0px !important;
+  }
+  .harvestBtn {
+    font-size: 12px !important;
+  }
+  .unstakeAllBtn {
+    font-size: 12px !important;
+  }
+  .totalValue {
+    text-align: center;
+    font-size: 18px !important;
+  }
+  .infoContain > h1, p {
+    text-align: center !important;
+  }
+  .headerBtnContainer {
+    margin-right: 0px !important;
+  }
+  .nftCardContainer {
+    gap:5px !important;
+    padding: 0px !important;
+  }
+  .headerBtnContainer > * {
+    width: 30% !important;
+  }
+  .nftmint-top-img {
+    width: 300px !important;
+    margin-left: 40px;
+  }
+}
+
+
+@media screen and (max-width:1320px){
+.btnConnectConbtain {
+  width: 20% !important;
+}
+}
+@media screen and (max-width: 1375px){
+  .nftmint-top-img {
+    width: 270px !important;
+  }
+}
+
+.ant-upload-select-picture-card, .ant-upload-list-picture-card-container {
+  width: 100% !important;
+  height: 200px !important;
+}
