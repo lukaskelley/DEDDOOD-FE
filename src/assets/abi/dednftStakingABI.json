@@ -2,12 +2,12 @@
 	{
 		"inputs": [
 			{
-				"internalType": "contract DoodCats",
+				"internalType": "contract DedDoods",
 				"name": "_sDoodNFT",
 				"type": "address"
 			},
 			{
-				"internalType": "contract sDOODV2",
+				"internalType": "contract sDOODV3",
 				"name": "_sDood",
 				"type": "address"
 			}
@@ -199,7 +199,7 @@
 		"name": "nftCollection",
 		"outputs": [
 			{
-				"internalType": "contract DoodCats",
+				"internalType": "contract DedDoods",
 				"name": "",
 				"type": "address"
 			}
@@ -232,7 +232,7 @@
 		"name": "rewardsToken",
 		"outputs": [
 			{
-				"internalType": "contract sDOODV2",
+				"internalType": "contract sDOODV3",
 				"name": "",
 				"type": "address"
 			}

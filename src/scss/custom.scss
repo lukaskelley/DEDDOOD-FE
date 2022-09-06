@@ -1,22 +1,45 @@
 // Here you can add other styles
 .body {
-  background-image: url(../assets/images/home-backgroundlight.png);
+  padding: 0px !important;
+}
+.dodStakingPage {
+    background-image: url(../assets/images/home-backgroundlight.png);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.dedStakingPage {
+    background-image: url(../assets/images/dedcatBackground.png);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.ftStakingContainer {
+    background-image: url(../assets/images/home-backgroundlight.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 0px !important;
+    padding: 50px !important;
+}
+.infoPage {
+    background-image: url(../assets/images/home-backgroundlight.png);
+    height: 100%;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px;
-    padding-left: 10% !important;
-    padding-right: 10% !important;
+    margin: 0px !important;
+    padding: 20px !important;
 }
 .connectWalletContainer {
   box-shadow: rgb(25 19 38 / 70%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px !important;
 }
 
 .sideItem {
-  width: 45px;
+  width: 50px;
   height: 35px;
-  padding-right: 10px;
-  margin-right: 10px;
+  padding-right: 15px;
 }
 .appfooter {
   background-color: white;
@@ -33,7 +56,6 @@
       font-weight: 800;
     }
 }
-
 
 .header {
   height: 28px;
@@ -214,6 +236,10 @@
       background-color: rgb(123, 103, 162);
     }
 }
+.btnConnectConbtainer {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
 
 .nfttoptitleContainer {
   text-align: center;
@@ -297,6 +323,9 @@
 }
 
 @media screen and (max-width: 395px){
+  .ant-modal-confirm .ant-modal-confirm-btns {
+    text-align: center !important;
+  }
   .sidebar-brand-full {
     margin-right: 100px;
   }
@@ -314,12 +343,10 @@
     font-size: 15px !important;
   }
  .btnConnectConbtain{
+    margin-right: 15px;
     width: 16% !important;
   }
 
-  .ftStakingContainer {
-    padding: 0px !important;
-  }
   .header-nav {
     margin-right:40px ;
   }
@@ -377,8 +404,7 @@
   }
 }
 @media screen and (max-width: 825px){
-  .btnConnectConbtainer {
-  }
+ 
   .sidebar-brand-full {
     margin-right: 100px;
   }
@@ -394,11 +420,12 @@
     font-size: 15px !important;
   }
  .btnConnectConbtain{
+    margin-right: 15px;
     width: 16% !important;
   }
 
-  .ftStakingContainer {
-    padding: 0px !important;
+  .ftStakingContainer, .dodStakingPage, .dedStakingPage {
+    padding: 20px !important;
   }
   .header-nav {
     margin-right:40px ;
@@ -415,10 +442,7 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .container-fluid {
-    display: flex !important;
-    justify-content: center !important;
-  }
+ 
   .sc-jqUVSM {
     gap: 5PX !important;
   }
@@ -475,10 +499,11 @@
  .btnConnectConbtain{
     width: 16% !important;
   }
-
-  .ftStakingContainer {
-    padding: 0px !important;
+  //customize modal 
+  .ant-modal-body {
+    padding: 10px !important;
   }
+ 
   .header-nav {
     margin-right:40px ;
   }
@@ -537,11 +562,6 @@
 }
 
 
-@media screen and (max-width:1320px){
-.btnConnectConbtain {
-  width: 20% !important;
-}
-}
 @media screen and (max-width: 1375px){
   .nftmint-top-img {
     width: 270px !important;

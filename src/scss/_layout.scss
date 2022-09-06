@@ -36,6 +36,18 @@
     padding: 20px;
   }
 }
-.nav-icon {
-  padding-right: 10px;
+/***************** nav-group css customize *********************/
+.nav-group {
+  background-color: transparent !important;
+}
+.nav-group-items {
+  background: rgba(143, 128, 186, 0.2) !important;
+}
+.nav-group-items >.nav-item>a {
+  padding-left: 40px !important;
+  color: rgb(143, 128, 186) !important;
+  font-weight: 600;
+}
+.nav-group-items>.nav-item>.active {
+  background: rgba(143, 128, 186, 0.2) !important;
 }
